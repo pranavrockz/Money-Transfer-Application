@@ -47,48 +47,65 @@ Make sure you have the following installed:
 - npm (v6 or higher)  
 - [Vite](https://vitejs.dev/)  
 
-### 📥 Installation
+## 📥 Installation
 
-Installation
 Clone the repository:
-
+```bash
 git clone https://github.com/nipun-sharma123/payments-app.git
 cd payments-app
+Backend
 Install backend dependencies:
 
+bash
+Copy code
 cd backend
 npm install
+Frontend
 Install frontend dependencies:
 
+bash
+Copy code
 cd ../frontend
 npm install
-Running the Project
+▶️ Running the Project
 Backend
 Configure environment variables:
 
-Create a .env file in the backend directory and add your configurations (e.g., database connection string, JWT secret).
+Create a .env file in the backend directory
+
+Add your configurations (e.g., database connection string, JWT secret)
 
 Start the backend server:
 
+bash
+Copy code
 cd backend
 npm start
-The backend server will start on http://localhost:3000.
+The backend server will run at: http://localhost:3000
 
 Frontend
 Start the frontend server:
 
+bash
+Copy code
 cd ../frontend
 npm run dev
-The frontend application will start on http://localhost:5173.
+The frontend application will run at: http://localhost:5173
 
-Testing
-To test the backend and frontend applications, you can use tools like Postman (for API testing) and your browser (for frontend testing).
+### 🧪 Testing
+Use Postman (or similar tools) for API testing
 
-Contributing
-We welcome contributions to the project. If you have any ideas or suggestions, please feel free to open an issue or submit a pull request.
+Open http://localhost:5173 in your browser for frontend testing
 
-License
-This project is licensed under the MIT License.
+### 🤝 Contributing
+We welcome contributions to the project!
 
-Contact
-If you have any questions or need further assistance, please contact me.
+Open an issue for suggestions or bug reports
+
+Submit a pull request with improvements
+
+### 📜 License
+This project is licensed under the MIT License
+
+### 📧 Contact
+If you have any questions or need assistance, feel free to reach out.
