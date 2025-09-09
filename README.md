@@ -54,22 +54,24 @@ Clone the repository:
 git clone https://github.com/pranav-rockz/payments-app.git
 cd payments-app
 ```
-Backend
+# Backend
 Install backend dependencies:
 
-bash
-Copy code
+```bash
 cd backend
 npm install
-Frontend
-Install frontend dependencies:
+```
 
-bash
-Copy code
+# Frontend
+Install frontend dependencies:
+```bash
 cd ../frontend
 npm install
+```
+
 ▶️ Running the Project
-Backend
+
+# Backend
 Configure environment variables:
 
 Create a .env file in the backend directory
@@ -77,20 +79,20 @@ Create a .env file in the backend directory
 Add your configurations (e.g., database connection string, JWT secret)
 
 Start the backend server:
-
-bash
-Copy code
+```bash
 cd backend
 npm start
 The backend server will run at: http://localhost:3000
+```
 
-Frontend
+# Frontend
 Start the frontend server:
 
-bash
-Copy code
+```bash
+
 cd ../frontend
 npm run dev
+```
 The frontend application will run at: http://localhost:5173
 
 ### 🧪 Testing
