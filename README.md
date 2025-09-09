@@ -1,27 +1,54 @@
-# Money-Transfer-Application
-Welcome to the Payments App! This project provides a secure platform for transferring money, managing user accounts, and viewing transaction details. It consists of both frontend and backend components.
+# 💸 Payments App
 
-Features
-User Authentication: Signup and Signin functionalities.
-Account Management: Update user credentials.
-Balance Management: View current balance and transfer money.
-Search and Add Friends: Search for friends to transfer money.
-Project Structure
+Welcome to the **Payments App**!  
+This project provides a secure platform for transferring money, managing user accounts, and viewing transaction details. It consists of both **frontend** and **backend** components.
+
+---
+
+## 🚀 Features
+- 🔐 **User Authentication**: Signup and Signin functionalities  
+- 👤 **Account Management**: Update user credentials  
+- 💰 **Balance Management**: View current balance and transfer money  
+- 👥 **Search & Add Friends**: Search for friends to transfer money  
+
+---
+
+## 📂 Project Structure
 The project is divided into two main parts:
 
-Backend: Built with Node.js and Express.js, it handles the API routes and database operations.
-Frontend: Built with React and Vite, it provides the user interface for interacting with the application.
-Backend
-The backend provides several API routes for managing accounts, authentication, and user details. You can find detailed information about these routes in the backend's README file.
+- **Backend**: Built with **Node.js** and **Express.js**, handles API routes and database operations.  
+- **Frontend**: Built with **React** and **Vite**, provides the user interface for interacting with the app.  
 
-Frontend
-The frontend includes several pages like Dashboard, Home, Signin, Signup, Send Money, and Settings. Each page provides specific functionalities to the user. Detailed descriptions of these pages can be found in the frontend's README file.
+---
 
-Getting Started
-Prerequisites
-Node.js (v14 or higher)
-npm (v6 or higher)
-Vite
+## ⚙️ Backend
+The backend provides API routes for managing accounts, authentication, and user details.  
+👉 Detailed route information can be found in the backend's own README file.
+
+---
+
+## 🎨 Frontend
+The frontend includes several pages:  
+- Dashboard  
+- Home  
+- Signin / Signup  
+- Send Money  
+- Settings  
+
+👉 Detailed descriptions of these pages can be found in the frontend's README file.
+
+---
+
+## 🛠️ Getting Started
+
+### ✅ Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14 or higher)  
+- npm (v6 or higher)  
+- [Vite](https://vitejs.dev/)  
+
+### 📥 Installation
+
 Installation
 Clone the repository:
 
